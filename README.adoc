@@ -1,0 +1,14 @@
+= Homebrew AWS CloudFormation Template Flip
+
+== Description
+
+For installing the https://github.com/awslabs/aws-cfn-template-flip[AWS CloudFormation Template Flip] with https://github.com/Homebrew/brew[Homebrew]
+
+== Installation
+
+. `brew tap dkanejs/aws-cfn-template-flip`
+. `brew install aws-cfn-template-flip`
+
+You can verify installation by running:
+
+`cfn-flip`
