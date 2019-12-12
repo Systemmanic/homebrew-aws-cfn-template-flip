@@ -1,22 +1,21 @@
 class AwsCfnTemplateFlip < Formula
   include Language::Python::Virtualenv
 
-  desc "Tool for converting AWS CloudFormation templates between JSON and YAML formats"
+  desc "Convert AWS CloudFormation between JSON and YAML"
   homepage "https://github.com/awslabs/aws-cfn-template-flip"
-  url "https://github.com/awslabs/aws-cfn-template-flip/archive/1.2.1.tar.gz"
-  version "1.2.1"
-  sha256 "2ea2d115a69416acd577c2d97c7731d1a8fc313544831106e756ef22995c73a1"
+  url "https://github.com/awslabs/aws-cfn-template-flip/archive/1.2.2.tar.gz"
+  sha256 "c2780f27b74bd14222d19dd82b2b60ca6451c91e5a5ea963758b085bf9dde9ea"
 
   depends_on "python"
 
   resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/e3/e8/b3212641ee2718d556df0f23f78de8303f068fe29cdaa7a91018849582fe/PyYAML-5.1.2.tar.gz"
-    sha256 "01adf0b6c6f61bd11af6e10ca52b7d4057dd0be0343eb9283c878cf3af56aee4"
+    url "https://files.pythonhosted.org/packages/8d/c9/e5be955a117a1ac548cdd31e37e8fd7b02ce987f9655f5c7563c656d5dcb/PyYAML-5.2.tar.gz"
+    sha256 "c0ee8eca2c582d29c3c2ec6e2c4f703d1b7f1fb10bc72317355a746057e7346c"
   end
 
   resource "six" do
-    url "https://files.pythonhosted.org/packages/dd/bf/4138e7bfb757de47d1f4b6994648ec67a51efe58fa907c1e11e350cddfca/six-1.12.0.tar.gz"
-    sha256 "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"
+    url "https://files.pythonhosted.org/packages/94/3e/edcf6fef41d89187df7e38e868b2dd2182677922b600e880baad7749c865/six-1.13.0.tar.gz"
+    sha256 "30f610279e8b2578cab6db20741130331735c781b56053c59c4076da27f06b66"
   end
 
   resource "click" do
